@@ -10,6 +10,7 @@ header h1 {
     flex-grow: 1;
     margin-top: 0%;
     margin-bottom: 0%;
+    font-size: 35pt;
 }
 
 .button {
@@ -28,6 +29,7 @@ button {
     display: flex;
     justify-content: space-between;
     width: 95%;
+    font-size: 16pt;
 }
 
 li a {
@@ -40,6 +42,23 @@ a:visited {
 }
 
 .banner {
-    background-image: url("images/banner.jpg");
-    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.banner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1; /* set the image behind p */
+}
+
+.banner p {
+    position: absolute;
+    padding: 20px;
+    margin-top: 30%;
+    margin-left: 50%;
+    font-size: x-large;
 }
