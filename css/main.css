@@ -38,3 +38,8 @@ a:visited {
     color: black;
     text-decoration: none;
 }
+
+.banner {
+    background-image: url("images/banner.jpg");
+    background-size: cover;
+}
