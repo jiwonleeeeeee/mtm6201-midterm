@@ -41,24 +41,7 @@ a:visited {
     text-decoration: none;
 }
 
-.banner {
-    position: relative;
-    color: white;
-}
-
 .banner img {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: auto;
-    z-index: -1; /* set the image behind p */
-}
-
-.banner p {
-    position: absolute;
-    padding: 20px;
-    margin-top: 30%;
-    margin-left: 50%;
-    font-size: x-large;
 }
