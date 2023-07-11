@@ -1,0 +1,43 @@
+/* header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    text-align: center;
+    flex-grow: 1;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 35pt;
+}
+
+.button {
+    display: flex;
+    margin-right: 1%;
+}
+
+.button button {
+    border: none;
+    background-color: white;
+    font-size: 15px;
+}
+
+/* nav bar */
+.nav ul li {
+    list-style: none;
+    text-align: center;
+    font-size: 15pt;
+    padding: 3% 0;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}

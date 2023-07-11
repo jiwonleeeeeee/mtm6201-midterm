@@ -24,6 +24,7 @@ header h1 {
     font-size: 15px;
 }
 
+/* nav bar */
 .nav ul li {
     list-style: none;
     text-align: center;
@@ -33,6 +34,7 @@ header h1 {
 
 li a {
     text-decoration: none;
+    color: black;
 }
 
 a:visited {
@@ -40,6 +42,7 @@ a:visited {
     text-decoration: none;
 }
 
+/* main */
 .banner img {
     width: 100%;
     height: auto;
