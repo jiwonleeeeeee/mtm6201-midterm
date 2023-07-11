@@ -43,6 +43,14 @@ a:visited {
 }
 
 /* main */
+.contactus {
+    background-color: #FDFFE5;
+}
+
+.sub {
+    background-color: #FFE5F5;
+}
+
 
 /* footer */
 footer div ul {

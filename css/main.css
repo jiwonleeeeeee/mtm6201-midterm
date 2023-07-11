@@ -69,8 +69,8 @@ a:visited {
 }
 
 div img {
-    width: 100%;
-    height: 500px;
+    width: 85%;
+    height: 400px;
     object-fit: cover; /* maintain the ratio of the images */
 }
 
