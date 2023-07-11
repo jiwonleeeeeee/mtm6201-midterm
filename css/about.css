@@ -54,6 +54,10 @@ a:visited {
     width: 100%;
 }
 
+.person img {
+    width: 100%;
+}
+
 .location {
     text-align: center;
 }
@@ -94,4 +98,42 @@ footer p {
 
 .payment i {
     padding: 0 15px;
+}
+
+/* desktop ver. */
+
+@media screen and (min-width: 720px) {
+
+    .nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 15pt;
+    }
+
+    .nav ul li {
+        padding: 0;
+    }
+
+    .about {
+        margin-top: 5%;
+        padding: 5% 0;
+    }
+
+    .about p {
+        font-size: x-large;
+    }
+
+    .person {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        font-size: x-large;
+    }
+
+    .loc {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        font-size: x-large;
+    }
 }
