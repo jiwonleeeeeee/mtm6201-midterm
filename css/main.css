@@ -94,3 +94,36 @@ a:visited {
     justify-content: center;
     align-items: center;
 }
+
+footer div ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    font-size: 12pt;
+}
+
+.social {
+    font-size: XX-large;
+    display: flex;
+    justify-content: center;
+}
+
+.social i {
+    padding: 5px 15px;
+}
+
+footer p {
+    text-align: center;
+    margin: 2% auto;
+}
+
+.payment {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.payment i {
+    padding: 5px 15px;
+}
