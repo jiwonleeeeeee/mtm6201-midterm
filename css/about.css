@@ -47,7 +47,6 @@ li:hover {
 }
 
 /* main */
-
 .about {
     text-align: center;
     background-color: #FDFFE5;
@@ -113,7 +112,6 @@ footer p {
 }
 
 /* desktop ver. */
-
 @media screen and (min-width: 720px) {
 
     .nav ul {
@@ -136,6 +134,7 @@ footer p {
         font-size: x-large;
     }
 
+    /* img and p are besides to each other by using grid property. */
     .person {
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -145,7 +144,7 @@ footer p {
 
     .loc {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
-        font-size: x-large;
+        grid-template-columns: repeat(2,1fr);
+        font-size: large;
     }
 }
