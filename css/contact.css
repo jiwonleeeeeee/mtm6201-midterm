@@ -45,10 +45,52 @@ a:visited {
 /* main */
 .contactus {
     background-color: #FDFFE5;
+    padding: 10px 30px;
+}
+
+.contactus h2,h3,p {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form input {
+    width: 98%;
+    margin-top: -15px;
+}
+
+.form input:nth-child(3) {
+    
+}
+
+.form label {
+    text-align: left;
+    width: 100%;
 }
 
 .sub {
     background-color: #FFE5F5;
+    text-align: center;
+    padding: 10px;
+    margin-top: -16px;
+}
+
+.sub form input {
+    margin-bottom: 10px;
+    width: 70%;
+    height: 30px;
+    border: none;
+}
+
+.sub button {
+    background-color: #FF0042;
+    border: none;
+    color: white;
+    padding: 10px;
 }
 
 
