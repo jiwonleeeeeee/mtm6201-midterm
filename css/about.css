@@ -42,6 +42,10 @@ a:visited {
     text-decoration: none;
 }
 
+li:hover {
+    text-decoration: underline;
+}
+
 /* main */
 
 .about {

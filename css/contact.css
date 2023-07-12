@@ -42,6 +42,10 @@ a:visited {
     text-decoration: none;
 }
 
+li:hover {
+    text-decoration: underline;
+}
+
 /* main */
 .contactus {
     background-color: #FDFFE5;
@@ -61,6 +65,7 @@ a:visited {
 .form input {
     width: 98%;
     margin-top: -15px;
+    height: 25px;
 }
 
 .form input:nth-child(11) {
@@ -75,7 +80,7 @@ a:visited {
 .form button {
     background-color: #FF0042;
     border: none;
-    color: white;
+    color: #00192f;
     padding: 10px 15px;
     margin-bottom: 8%;
 }
@@ -101,9 +106,47 @@ a:visited {
 .sub button {
     background-color: #FF0042;
     border: none;
-    color: white;
+    color: #00192f;
+    font-weight: bold;
     padding: 10px;
+    margin-left: 70px;
+    animation-name: subbutt;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
 }
+
+@keyframes subbutt {
+    from {
+      background-color: #FF0042;
+    }
+    
+    to {
+        opacity: 0.3;
+    }
+  }
+
+  .sub button:hover {
+    animation: none;
+  }
+
+  .fa-hand-pointer {
+    margin-left: 4%;
+    padding: 10px;
+    animation-name: hand;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes hand {
+    from {
+      opacity: 0;
+    }
+    
+    to {
+        opacity: 1;
+        transform: translateX(-80px);
+    }
+  }
 
 .skip-link {
     text-decoration: none;
