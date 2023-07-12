@@ -140,3 +140,18 @@ footer p {
 .payment i {
     padding: 0 15px;
 }
+
+
+/* desktop ver. */
+@media screen and (min-width: 720px) {
+
+    .nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 15pt;
+    }
+
+    .nav ul li {
+        padding: 0;
+    }
