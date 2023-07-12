@@ -82,7 +82,7 @@ div img {
 .grid button {
     border: none;
     background-color: #FF0042;
-    color: white;
+    color: #00192f;
     font-size: 12pt;
     border-radius: 5px;
     padding: 10px;
@@ -172,7 +172,7 @@ footer p {
     .grid button {
         border: none;
         background-color: #FF0042;
-        color: white;
+        color: #00192f;
         border-radius: 5px;
         padding: 5px;
         margin-top: 4%;
