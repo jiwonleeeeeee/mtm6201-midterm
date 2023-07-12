@@ -63,8 +63,8 @@ a:visited {
     margin-top: -15px;
 }
 
-.form input:nth-child(3) {
-    
+.form input:nth-child(11) {
+    height: 120px;
 }
 
 .form label {
@@ -72,10 +72,22 @@ a:visited {
     width: 100%;
 }
 
+.form button {
+    background-color: #FF0042;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    margin-bottom: 8%;
+}
+
+.fa-phone {
+    padding: 15px;
+}
+
 .sub {
     background-color: #FFE5F5;
     text-align: center;
-    padding: 10px;
+    padding: 15px ;
     margin-top: -16px;
 }
 
