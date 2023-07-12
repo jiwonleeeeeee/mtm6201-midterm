@@ -66,6 +66,13 @@ a:visited {
     width: 100%;
 }
 
+.skip-link {
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+    color: black;
+}
+
 /* footer */
 footer div ul {
     list-style: none;

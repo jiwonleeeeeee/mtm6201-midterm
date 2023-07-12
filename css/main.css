@@ -96,6 +96,7 @@ div img {
     text-decoration: none;
     display: flex;
     justify-content: end;
+    color: black;
 }
 
 footer div ul {

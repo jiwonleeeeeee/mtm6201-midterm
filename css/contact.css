@@ -105,6 +105,12 @@ a:visited {
     padding: 10px;
 }
 
+.skip-link {
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+    color: black;
+}
 
 /* footer */
 footer div ul {
